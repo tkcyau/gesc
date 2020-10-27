@@ -13,10 +13,6 @@ export const Background = styled.section`
       src ? `../images/misc/${src}.jpg` : "../images/IMG_9292opa.jpg"})
     top left / cover no-repeat;
   
-  /* @media (max-width: 1100px) {
-    ${({ dontShowOnSmallViewPort }) =>
-      dontShowOnSmallViewPort && `background: none;`}
-  } */
 `;
 
 export const Container = styled.div`
